@@ -15,6 +15,6 @@ yarn-debug.log*
 yarn-error.log*
 /.parcel-cache/
 /.pnp.cjs
-/.pnp.loader.mjs
+/pnp.loader.mjs
 *.tgz
 /.nyc_output
