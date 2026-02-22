@@ -1,0 +1,12 @@
+$bg: #0f172a;
+$card: #0b1220;
+$accent: #4f46e5;
+body { font-family: Inter, system-ui, Arial; background: linear-gradient(180deg, #071029, #0b1220); color: #e6eef8; margin:0 }
+.app-root { padding: 20px }
+.top-nav { display:flex; gap:12px; margin-bottom:18px }
+.card { background: rgba(255,255,255,0.03); padding:16px; border-radius:8px }
+.kpi-grid { display:flex; gap:12px }
+.kpi { flex:1 }
+.login { max-width:360px; margin:60px auto }
+.login form { display:flex; flex-direction:column; gap:8px }
+.btn { background: $accent; color:white; padding:8px 12px; border-radius:6px; border:0 }

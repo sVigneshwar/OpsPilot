@@ -1,0 +1,8 @@
+[
+  { "month":"Jan", "revenue":42000, "activeUsers":1200, "churnRate":3.2 },
+  { "month":"Feb", "revenue":45000, "activeUsers":1250, "churnRate":3.1 },
+  { "month":"Mar", "revenue":48000, "activeUsers":1300, "churnRate":2.9 },
+  { "month":"Apr", "revenue":51000, "activeUsers":1350, "churnRate":2.7 },
+  { "month":"May", "revenue":49500, "activeUsers":1340, "churnRate":2.8 },
+  { "month":"Jun", "revenue":53000, "activeUsers":1400, "churnRate":2.5 }
+]
