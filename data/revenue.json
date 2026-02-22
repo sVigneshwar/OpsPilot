@@ -1,8 +1,14 @@
 [
-  { "month":"Jan", "revenue":42000, "activeUsers":1200, "churnRate":3.2 },
-  { "month":"Feb", "revenue":45000, "activeUsers":1250, "churnRate":3.1 },
-  { "month":"Mar", "revenue":48000, "activeUsers":1300, "churnRate":2.9 },
-  { "month":"Apr", "revenue":51000, "activeUsers":1350, "churnRate":2.7 },
-  { "month":"May", "revenue":49500, "activeUsers":1340, "churnRate":2.8 },
-  { "month":"Jun", "revenue":53000, "activeUsers":1400, "churnRate":2.5 }
+  { "month":"Jan", "revenue":42000, "activeUsers":1200, "churnRate":3.2, "orders":450, "conversion":4.2 },
+  { "month":"Feb", "revenue":45000, "activeUsers":1250, "churnRate":3.1, "orders":480, "conversion":4.5 },
+  { "month":"Mar", "revenue":48000, "activeUsers":1300, "churnRate":2.9, "orders":510, "conversion":4.8 },
+  { "month":"Apr", "revenue":51000, "activeUsers":1350, "churnRate":2.7, "orders":540, "conversion":5.1 },
+  { "month":"May", "revenue":49500, "activeUsers":1340, "churnRate":2.8, "orders":530, "conversion":4.9 },
+  { "month":"Jun", "revenue":53000, "activeUsers":1400, "churnRate":2.5, "orders":560, "conversion":5.2 },
+  { "month":"Jul", "revenue":56000, "activeUsers":1450, "churnRate":2.4, "orders":590, "conversion":5.4 },
+  { "month":"Aug", "revenue":58500, "activeUsers":1480, "churnRate":2.3, "orders":610, "conversion":5.6 },
+  { "month":"Sep", "revenue":60000, "activeUsers":1520, "churnRate":2.2, "orders":640, "conversion":5.8 },
+  { "month":"Oct", "revenue":62500, "activeUsers":1550, "churnRate":2.1, "orders":660, "conversion":6.0 },
+  { "month":"Nov", "revenue":65000, "activeUsers":1600, "churnRate":2.0, "orders":690, "conversion":6.2 },
+  { "month":"Dec", "revenue":68000, "activeUsers":1650, "churnRate":1.9, "orders":720, "conversion":6.5 }
 ]

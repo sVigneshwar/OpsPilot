@@ -1,5 +1,22 @@
 [
-  { "id": "c_1", "name":"Alice", "email":"alice@example.com", "revenue":1200 },
-  { "id": "c_2", "name":"Bob", "email":"bob@example.com", "revenue":300 },
-  { "id": "c_3", "name":"Carol", "email":"carol@example.com", "revenue":800 }
+  { "id": "c_1", "name":"Alice Johnson", "email":"alice.johnson@techcorp.com", "revenue":12400, "status":"Active", "lastOrder":"2026-02-20" },
+  { "id": "c_2", "name":"Bob Smith", "email":"bob.smith@innovate.io", "revenue":8300, "status":"Active", "lastOrder":"2026-02-21" },
+  { "id": "c_3", "name":"Carol Williams", "email":"carol.w@enterprise.com", "revenue":15800, "status":"Active", "lastOrder":"2026-02-19" },
+  { "id": "c_4", "name":"David Brown", "email":"david.b@startup.com", "revenue":6200, "status":"Active", "lastOrder":"2026-02-18" },
+  { "id": "c_5", "name":"Emma Davis", "email":"emma.davis@global.com", "revenue":19500, "status":"Premium", "lastOrder":"2026-02-22" },
+  { "id": "c_6", "name":"Frank Miller", "email":"frank.m@services.com", "revenue":4700, "status":"Active", "lastOrder":"2026-02-17" },
+  { "id": "c_7", "name":"Grace Wilson", "email":"grace.w@digital.com", "revenue":11200, "status":"Active", "lastOrder":"2026-02-21" },
+  { "id": "c_8", "name":"Henry Moore", "email":"henry.moore@solutions.com", "revenue":13600, "status":"Premium", "lastOrder":"2026-02-20" },
+  { "id": "c_9", "name":"Iris Taylor", "email":"iris.t@venture.com", "revenue":7800, "status":"Active", "lastOrder":"2026-02-19" },
+  { "id": "c_10", "name":"Jack Anderson", "email":"jack.a@business.com", "revenue":9400, "status":"Active", "lastOrder":"2026-02-22" },
+  { "id": "c_11", "name":"Kate Thomas", "email":"kate.t@agency.com", "revenue":16700, "status":"Premium", "lastOrder":"2026-02-21" },
+  { "id": "c_12", "name":"Liam Jackson", "email":"liam.j@cloud.com", "revenue":5900, "status":"Active", "lastOrder":"2026-02-18" },
+  { "id": "c_13", "name":"Mia White", "email":"mia.white@platform.com", "revenue":10800, "status":"Active", "lastOrder":"2026-02-20" },
+  { "id": "c_14", "name":"Noah Harris", "email":"noah.h@systems.com", "revenue":14200, "status":"Premium", "lastOrder":"2026-02-22" },
+  { "id": "c_15", "name":"Olivia Martin", "email":"olivia.m@networks.com", "revenue":8900, "status":"Active", "lastOrder":"2026-02-19" },
+  { "id": "c_16", "name":"Peter Thompson", "email":"peter.t@labs.com", "revenue":12100, "status":"Active", "lastOrder":"2026-02-21" },
+  { "id": "c_17", "name":"Quinn Garcia", "email":"quinn.g@consulting.com", "revenue":6500, "status":"Active", "lastOrder":"2026-02-17" },
+  { "id": "c_18", "name":"Rachel Martinez", "email":"rachel.m@tech.com", "revenue":17300, "status":"Premium", "lastOrder":"2026-02-22" },
+  { "id": "c_19", "name":"Samuel Robinson", "email":"samuel.r@group.com", "revenue":9700, "status":"Active", "lastOrder":"2026-02-20" },
+  { "id": "c_20", "name":"Tara Clark", "email":"tara.c@media.com", "revenue":11500, "status":"Active", "lastOrder":"2026-02-21" }
 ]

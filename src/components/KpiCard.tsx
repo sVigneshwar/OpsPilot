@@ -1,10 +1,25 @@
 import React from 'react'
 
-export default function KpiCard({ title, value }: { title: string; value: any }){
+interface KpiCardProps {
+  title: string;
+  value: any;
+  change?: string;
+  isNegative?: boolean;
+}
+
+export default function KpiCard({ title, value, change, isNegative }: KpiCardProps){
   return (
     <div>
-      <div style={{fontSize:12, opacity:0.8}}>{title}</div>
-      <div style={{fontSize:22, marginTop:6}}>{value}</div>
+      <div className="kpi-title">{title}</div>
+      <div className="kpi-value">{value}</div>
+      {change && (
+        <div className={`kpi-change ${isNegative ? 'negative' : 'positive'}`}>
+          <span className="material-icons" style={{fontSize: '16px'}}>
+            {isNegative ? 'trending_down' : 'trending_up'}
+          </span>
+          {change}
+        </div>
+      )}
     </div>
   )
 }

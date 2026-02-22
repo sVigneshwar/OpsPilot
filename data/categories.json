@@ -1,0 +1,7 @@
+[
+  { "name": "Software", "value": 32500, "percentage": 35 },
+  { "name": "Hardware", "value": 25800, "percentage": 28 },
+  { "name": "Services", "value": 18600, "percentage": 20 },
+  { "name": "Training", "value": 10200, "percentage": 11 },
+  { "name": "Support", "value": 5500, "percentage": 6 }
+]

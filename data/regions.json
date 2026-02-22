@@ -1,0 +1,8 @@
+[
+  { "region": "North America", "revenue": 285000, "customers": 450, "growth": 12.5 },
+  { "region": "Europe", "revenue": 198000, "customers": 320, "growth": 8.3 },
+  { "region": "Asia Pacific", "revenue": 156000, "customers": 280, "growth": 18.7 },
+  { "region": "Latin America", "revenue": 89000, "customers": 150, "growth": 15.2 },
+  { "region": "Middle East", "revenue": 67000, "customers": 110, "growth": 10.8 },
+  { "region": "Africa", "revenue": 45000, "customers": 80, "growth": 22.4 }
+]

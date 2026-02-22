@@ -18,22 +18,38 @@ export default function Login(){
 
   return (
     <div className="login card">
-      <h2>OpsPilot — Demo Login</h2>
+      <h2>Welcome to OpsPilot</h2>
+      <p>Sign in to continue to your dashboard</p>
+      
       <form onSubmit={handleSubmit(onSubmit)}>
-        <label>Email</label>
-        <input {...register('email')} />
-        <label>Password</label>
-        <input type="password" {...register('password')} />
-        <label>Role (demo)</label>
-        <select {...register('role')}>
-          <option value="admin">Admin</option>
-          <option value="analyst">Analyst</option>
-        </select>
-        <div style={{display:'flex',gap:8}}>
-          <button className="btn" type="submit">Explore Demo</button>
+        <div>
+          <label>Email</label>
+          <input {...register('email')} type="email" placeholder="Enter your email" />
         </div>
+        
+        <div>
+          <label>Password</label>
+          <input type="password" {...register('password')} placeholder="Enter your password" />
+        </div>
+        
+        <div>
+          <label>Role (Demo Only)</label>
+          <select {...register('role')}>
+            <option value="admin">Admin</option>
+            <option value="analyst">Analyst</option>
+          </select>
+        </div>
+        
+        <button className="btn" type="submit" style={{width: '100%', marginTop: '8px'}}>
+          Sign In
+        </button>
       </form>
-      <p style={{marginTop:12}}>Demo: demo@opspilot.com / Demo123</p>
+      
+      <div className="demo-note">
+        <strong>Demo Credentials:</strong><br/>
+        Email: demo@opspilot.com<br/>
+        Password: Demo123
+      </div>
     </div>
   )
 }

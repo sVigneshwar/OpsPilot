@@ -1,0 +1,7 @@
+[
+  { "source": "Direct", "visitors": 12500, "percentage": 28 },
+  { "source": "Organic Search", "visitors": 18200, "percentage": 41 },
+  { "source": "Social Media", "visitors": 8900, "percentage": 20 },
+  { "source": "Referral", "visitors": 3200, "percentage": 7 },
+  { "source": "Email", "visitors": 1800, "percentage": 4 }
+]
